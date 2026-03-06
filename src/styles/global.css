@@ -9,6 +9,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.logo {
+    font-family: "Instrument Serif", serif;
+}
+
 h1, h2 {
     font-family: "Instrument Serif", serif;
 }

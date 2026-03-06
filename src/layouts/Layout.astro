@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import "aos/dist/aos.css";
 ---
 
 <!doctype html>
@@ -14,5 +15,9 @@ import "../styles/global.css";
 	</head>
 	<body>
 		<slot />
+		<script>
+        	import AOS from "aos";
+            AOS.init();
+        </script>
 	</body>
 </html>
